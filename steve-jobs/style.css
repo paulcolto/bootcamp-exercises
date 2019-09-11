@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: blue;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+    font-weight: 700;
+}
+
+ul p,
+ul aside {
+    color: grey;
+}
+
+nav > ol > li {
+    color: blue;
+}
