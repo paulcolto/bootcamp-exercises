@@ -65,14 +65,11 @@ body {
 .plot img {
     height: 500px;
     padding: 2rem;
-    display: flex;
     margin: 0;
 }
 
 .plot-text {
     color: black;
-    display: flex;
-    flex-direction: column;
     margin-top: 7rem;
     width: 50%;
 }
@@ -98,7 +95,7 @@ body {
 }
 
 .characters img {
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .Luke, .BB8 {
@@ -171,4 +168,47 @@ body {
 
 .ratings p {
     text-align: center;
+}
+
+.cast {
+    background-color: gray;
+    padding: 2rem 2rem;
+}
+
+.cast h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.hamill {
+    display: flex;
+    padding: 1rem;
+}
+
+.hamill-text {
+    padding: 1rem;
+}
+
+.hamill-text p {
+    line-height: 1.5rem;
+}
+
+.actors  {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    padding: 1rem;
+    justify-content: center;
+    position: relative;
+}
+
+.actors img {
+    height: 170px;
+}
+
+.actors p {
+    color: white;
+
 }
