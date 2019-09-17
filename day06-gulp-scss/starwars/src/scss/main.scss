@@ -1,2 +1,174 @@
 @import 'variables/colours.scss';
-@import 'common/document.scss'
+@import 'common/document.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.container { width: 100%;
+    background-color: gray;
+    display: flex;
+}
+
+.nav {
+    color: white;
+    background-color: gray;
+    padding: 1rem;
+    font-family: helvetica;
+    font-size: 1.25rem;
+    align-items: flex-start;
+ }
+
+.banner {
+    background-color: lightgray;
+    padding: 3rem;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/img/welcome.jpg);
+    background-size: contain;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: normal;
+    color: white;
+}
+
+.banner h2 {
+    color: gray;
+    font-weight: normal;
+}
+
+.plot { 
+    background-color: gray;
+}
+
+.plot-info {
+    display: flex;
+}
+
+.plot h1 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+.plot img {
+    height: 500px;
+    padding: 2rem;
+    display: flex;
+    margin: 0;
+}
+
+.plot-text {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    width: 50%;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+    background-image: url(/img/rey-standing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.characters-heading {
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0 16rem 0;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.characters img {
+    border-radius: 100%;
+}
+
+.Luke, .BB8 {
+    height: 10%;
+    width: 10%;
+}
+
+.Leia, .Poe {
+    height: 12%;
+    width: 12%;
+}
+
+.Finn, .Kylo {
+    height: 14%;
+    width: 14%;
+}
+
+.Rey {
+    height: 16%;
+    width: 16%;
+}
+
+.ratings-heading {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.ratings {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.5rem;
+
+}
+
+
+
+.ratings h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.imdb-box {
+    height: 200px;
+    width: 150px;
+    margin: 2rem;
+    background-color: darkgray;
+}
+
+.rotten-box {
+    height: 300px;
+    width: 150px;
+    margin: 2rem;
+
+    background-color: darkgray;
+}
+
+.metacritic-box {
+    height: 250px;
+    width: 150px;
+    margin: 2rem;
+    background-color: darkgray;
+}
+
+.ratings p {
+    text-align: center;
+}
