@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.lgray {
+    height: 10vmin;
+    width: 10vmin;
+    background-color: lightgray;
+    padding: 0.5rem;
+    border: 1px solid white;
+}
+
+.dgray {
+    height: 10vmin;
+    width: 10vmin;
+    background-color: gray;
+    padding: 0.5rem;
+    border: 1px solid white;
+
+}
