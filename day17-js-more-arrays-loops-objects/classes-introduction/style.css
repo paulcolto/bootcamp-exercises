@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.chip {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: blue;
+    color: white;   
+    text-align: center;
+}

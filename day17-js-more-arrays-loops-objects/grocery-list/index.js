@@ -13,8 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
             `<div class="list">
             <span>${item[0]}</span>
             <span>${item[1]}</span>
+            </div>
+            <div class="btn">
+            <button class="my-btn">Order</button>
             </div>`
         );
         listElm.innerHTML += html;
     }
+
+
+
+    /* let newElement = document.createElement('input');
+    document.body.appendChild(newElement); */
 })
