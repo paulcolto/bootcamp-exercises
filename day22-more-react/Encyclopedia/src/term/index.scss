@@ -1,0 +1,27 @@
+.term {
+  margin-bottom: 1rem;
+  background-color: darkblue;
+  padding: 1rem;
+
+  color: white;
+
+  &__name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  &__description {
+    color: white;
+    margin-top: 1rem;
+  }
+
+  &__origin {
+    color: white;
+    margin-top: 1rem;
+  }
+
+  &__like {
+    margin-top: 1rem;
+
+  }
+}
