@@ -163,9 +163,9 @@ var_dump($cars_i_want);
 $cars_i_want = ['Aston Martin', 'Bugatti', 'Ferrari', 'Lamborghini', 'Maserati', 'Mercedes', 'Porsche', 'Skoda'];
 var_dump($cars_i_want);
 echo "<br>";
-echo "For myself I would be buy " . $cars_i_want[1] . ".<br>";
+echo "For myself I would buy " . $cars_i_want[1] . ".<br>";
 echo "<br>";
-echo "For my spouse I would be buy " . $cars_i_want[3] . ".<br>";
+echo "For my spouse I would buy " . $cars_i_want[3] . ".<br>";
 echo "<br>";
 $cars_i_want[4] = 'Smart';
 var_dump($cars_i_want[4]);
@@ -173,11 +173,13 @@ echo "Each of my kids will get a " . $cars_i_want[4] . ".<br>";
 
 echo "<br>";
 
-// <ul>
-// foreach ($cars_i_want as $name) {
-//     <li>return $name</li>
-// }
-// </ul>
+echo "<ul>";
+
+foreach($cars_i_want as $name)
+{
+    echo "<li>{$name}</li>";
+}
+echo "</ul>";
 
 $car_prices = [
     'Skoda Octavia' => 270000,
@@ -187,7 +189,7 @@ $car_prices = [
 ];
 echo "<br>";
 
-echo "You can have a Porsche for just " . max($car_prices) . ".<br>";
+echo "You can have a Porsche for just " . $car_prices['Porsche 911'] . ".<br>";
 
 foreach ($car_prices as $key => $value) {
     echo "The price of " . $key . ' is ' . $value . ".<br>";
