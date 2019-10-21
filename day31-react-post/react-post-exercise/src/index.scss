@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    background-color: lightgray;
+}
+
+img {
+    max-width: 15rem;
+    max-height: 20rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+input {
+    background-color: white;
+}
