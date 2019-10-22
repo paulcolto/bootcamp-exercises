@@ -1,4 +1,6 @@
 import React from 'react';
+import MovieFavorite from './MovieFavorite.jsx';
+
 
 export default class MovieReview extends React.Component {
     constructor(props) {
@@ -57,6 +59,8 @@ export default class MovieReview extends React.Component {
                 { movie }
 
                 <input type="submit" value="Submit" />
+
+                <MovieFavorite movie_id={this.movie_id} />
 
             </form>
         )
