@@ -1,0 +1,23 @@
+<?php $site_url = 'http://www.cbp-exercises.test:8081/day32-SSR-Laravel-views-and-Laravel-Blade/eshop-include-require/'; ?>
+
+
+<div class="categories">
+    <h2>Browse our products</h2>
+    <ul>
+        <li>
+            <a href="<?= $site_url ?>/category.php">All product categories</a>
+        </li>
+        <li>
+            <a href="<?= $site_url ?>/category.php?category_id=4">Appliances</a>
+        </li>
+        <li>
+            <a href="<?= $site_url ?>/category.php?category_id=2">Mobile phones</a>
+        </li>
+        <li>
+            <a href="<?= $site_url ?>/category.php?category_id=1">PCs & Laptops</a>
+        </li>
+        <li>
+            <a href="<?= $site_url ?>/category.php?category_id=3">Televisions</a>
+        </li>
+    </ul>  
+</div>
