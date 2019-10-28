@@ -39,6 +39,7 @@ $messages = [
     <tr>
         <td><?= $key; ?></td>
         <td><?= $value; ?></td>
+        
     </tr>
     <?php endforeach; ?>
 
