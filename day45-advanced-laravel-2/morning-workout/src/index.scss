@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    background-color: lightgray;
+}
+
+.grid, h1 {
+    display: flex;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;  
+}
